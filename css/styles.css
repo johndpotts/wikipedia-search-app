@@ -1,0 +1,37 @@
+body{
+margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: url("http://res.cloudinary.com/dnyy6kcjj/image/upload/v1500599542/pattern_wjbvt5.svg");
+    background-size: cover;
+}
+.wiki{
+  background-color:#111;
+  color: #EEE;
+}
+.pointer{
+  cursor:pointer;
+  font-weight:bold;
+  
+}
+.main{
+  padding: 100px 30px 100px 30px;
+  opacity: 1;
+  text-align: center;
+ 
+  
+}
+
+
+
+input[type=text] {
+  font-size: 20px;
+  height: 25px;  
+  width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+input[type=text]:focus {
+    width: 100%;
+}
