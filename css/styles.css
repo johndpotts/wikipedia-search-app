@@ -8,30 +8,25 @@ margin-top: 40px;
   background-color:#111;
   color: #EEE;
 }
-.pointer{
+.random{
   cursor:pointer;
   font-weight:bold;
-  
+  padding: 5px;
+  border-radius:5px;
+
 }
 .main{
   padding: 100px 30px 100px 30px;
   opacity: 1;
   text-align: center;
- 
-  
 }
-
-
-
 input[type=text] {
   font-size: 20px;
-  height: 25px;  
+  height: 25px;
   width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-
-
 input[type=text]:focus {
     width: 100%;
 }
