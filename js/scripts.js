@@ -1,5 +1,6 @@
 $(document).ready(function() {
   var $wikiElem = $('#wikiElem');
+  
   //make search box respond on enter
   $("#searchBox").keypress(function(e) {
     if (e.which == 13) {
@@ -8,7 +9,8 @@ $(document).ready(function() {
       var wikiAPI = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' +
         searchInput + '&format=json&callback=wikiCallback';
 
-//makes ajax call to wikipedia      $.ajax({
+//makes ajax call to wikipedia
+$.ajax({
         url: wikiAPI,
         dataType: "jsonp",
         success: function(data) {
